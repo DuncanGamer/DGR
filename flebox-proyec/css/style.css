@@ -46,8 +46,13 @@ img {
     text-decoration: none;
 }
 section{
-    display:flex
-}
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    }
+
+
+
     
 #noticia-1 {
     height: 600px;
