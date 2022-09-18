@@ -1,0 +1,224 @@
+body {
+    min-height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+header {
+    padding-left: 50px;
+    display: flex;
+    background-color: #2A2727;
+    height: 150px;
+    width: 100%;
+   box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+   
+}
+#titulo{
+
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(209, 104, 52);
+    font-size: 80px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    letter-spacing: 5px;
+    word-spacing: 100px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: #82CF1D;
+
+}
+
+nav ul li a:hover {
+    color: white;
+    border-bottom: 2px dashed white;
+}
+
+
+
+aside {
+    
+    margin-left: 10px;
+    background-color: #605B59;
+    width: 29%;
+    height: 100vh; 
+    overflow: hidden;
+    
+}
+
+
+section {
+    height: 100vh;
+    width: 69%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #605B59;
+    overflow: hidden;
+    overflow: scroll;
+}
+
+#post-1 {
+    width: 700px;
+    height: 500px;
+    background: url(../imagenes/blue.jpg);
+    background-size: cover;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 20px 20px -12px #000;
+
+}
+#post-2 {
+    width: 700px;
+    height: 500px;
+    background: url(../imagenes/party.jpg);
+    background-size: cover;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 20px 20px -12px #000;
+
+}
+#post-3 {
+    width: 700px;
+    height: 500px;
+    background: url(../imagenes/orange.jpg);
+    background-size: cover;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 20px 20px -12px #000;
+
+}
+#post-4 {
+    width: 700px;
+    height: 500px;
+    background: url(../imagenes/nigth.jpg);
+    background-size: cover;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 20px 20px -12px #000;
+
+}
+#post-5 {
+    width: 700px;
+    height: 500px;
+    background: url(../imagenes/mid-nigth.jpg);
+    background-size: cover;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 20px 20px -12px #000;
+
+}
+#post-6 {
+    width: 700px;
+    height: 500px;
+    background: url(../imagenes/dj.jpg);
+    background-size: cover;
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 20px 20px -12px #000;
+
+}
+
+
+p {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    box-sizing: content-box;
+    position: relative;
+    top: 100%;
+    transition: all .3s;
+
+
+}
+article:hover p {
+    top: 0%;
+}
+
+
+
+.fiesta {
+    width: 400px;
+    margin: 10px;
+}
+
+.fiesta2 {
+    margin-top: 15px;
+    width: 130px;
+}
+
+footer {
+    margin-top: 10px;
+    color: white;
+    padding: px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #605B59;
+}
+footer {
+    align-self: flex-end;
+
+}
